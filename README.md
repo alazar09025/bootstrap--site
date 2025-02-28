@@ -1,4 +1,4 @@
 # bootstrap--site
 een bootstrap demo
 
-dit word een geweldige website
+league of legends is de beste game ooit.
