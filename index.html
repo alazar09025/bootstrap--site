@@ -14,30 +14,94 @@
 
 </head>
 <body>
-    <button class = 'btn btn-primary'> home</button>
-    <button class = 'btn btn-secondary' > second page </button>
+
+
+
+
+
+
+
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        MijnSite
+      </a>
+      <!-- Toggler (hamburgerknop) -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <!-- Inklapbaar menu -->
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">about pagina</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">contact pagina</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+
+
+  <section class="container my-4">
+    <div class="row">
+        <!-- Eerste Card -->
+        <div class="col-12 col-md-4">
+            <div class="card p-3">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQvQmktu3QSbhfcGUmhemiKg3EX34yeA_Pag&s" class="card-img-top" alt="Afbeelding">
+                <div class="card-body">
+                    <h5 class="card-title">huidige sezoen</h5>
+                    <a href="#" class="btn btn-primary">Meer Info</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tweede Card -->
+        <div class="col-12 col-md-4">
+            <div class="card p-3">
+                <img src="https://images.squarespace-cdn.com/content/v1/64c947429e47b803dc16c2cc/1733524702812-8GKZ91LEQ17GXV9FIUN7/en-fn33-00-c1s1-discover-playlist-tiles-og-1920x1080-1920x1080-6e75fb505e0f.jpg" class="card-img-top" alt="Afbeelding">
+                <div class="card-body">
+                    <h5 class="card-title">OG fortnite</h5>
+                    <a href="#" class="btn btn-primary">Meer Info</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+
+
 
     
     
-    
-
     
         <div class="container">
             <!-- Header -->
             <header class="row mb-4">
-              <div class="col bg-primary text-white py-3">
+              <div class="col bg-secondary text-white py-3">
                 <h1 class="text-center">Mijn Website</h1>
               </div>
             </header>
-          
-
 
             <!-- Main content -->
             <main class="row">
               <!-- Linkerkolom / hoofdkolom -->
               <div class="col-12 col-md-8 bg-light p-3">
                 <div class="col-md-6">
-                    <h1>wat is fortnite!</h1>
+                    <h1 class="fw-bold">Wat is Fortnite!</h1>
                         <p>
                             Fortnite is een online videogame ontwikkeld door Epic Games en uitgebracht in 2017. 
                             Het spel combineert schietactie met bouwmechanieken, wat betekent dat spelers niet alleen tegenstanders moeten verslaan, 
@@ -49,9 +113,10 @@
                             Battle Royale, waarin 100 spelers tegen elkaar strijden totdat er één overblijft, Creative, waarin spelers hun eigen werelden en 
                             spelmodi kunnen ontwerpen, en Save the World, een coöperatieve spelmodus waarin teams vijanden moeten verslaan en missies moeten voltooien.
                         </p>
+                        <button class = 'btn btn-secondary'> meer...</button>
                 </div>
                 <div class="col-md-6">
-                    <h2>hoe populair is fortnite</h2>
+                      <h2 class="fw-bold">Hoe populair is Fortnite?</h2>
                         <p> 
                             Fortnite is een van de populairste games ter wereld en heeft sinds de release honderden miljoenen spelers aangetrokken.
                             De game blijft relevant door regelmatige updates, speciale evenementen en samenwerkingen met bekende merken, films en beroemdheden. 
@@ -62,11 +127,12 @@
                             Het spel is gratis te spelen, maar verdient geld via in-game aankopen zoals skins, dansjes en andere cosmetische items. 
                             Dankzij de combinatie van toegankelijkheid, vernieuwende gameplay en sterke community blijft Fortnite een van de grootste titels in de gamingindustrie.
                         </p>
+                        <button class = 'btn btn-secondary' > meer... </button>
                 </div>
               </div>
-              <!-- Rechterkolom / sidebar -->
-              <aside class="col-12 col-md-4 bg-secondary text-white p-3">
-                <h3>Hoe oud is Fortnite?</h3>
+              <!-- sidebar -->
+              <aside class="col-12 col-md-4 bg-secondary text-white p-3 mt-3 text-center">
+                <h3 class="fw-bold">Fortnite's leeftijd?</h3>
                 <p> 
                     Fortnite werd uitgebracht op 25 juli 2017 als een coöperatieve survivalgame 
                     (Save the World). De populaire Battle Royale-modus volgde op 26 september 2017 
@@ -80,16 +146,12 @@
 
             <!-- Footer -->
             <footer class="row mt-4">
-              <div class="col bg-dark text-white text-center py-2">
+              <div class="col bg-dark text-white text-center py-4">
                 <p>&copy; 2025 - alazar, like en subscribe!</p>
               </div>
             </footer>
           </div>
 
-
-
-
-
-    
+          
 </body>
 </html>
