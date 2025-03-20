@@ -3,49 +3,123 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Mijn Bootstrap Pagina over fortnite</title>
+  <title>Mijn Bootstrap Pagina over Fortnite</title>
+
+
+
+
+
+  <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
+
+
+
+
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link disabled" aria-disabled="true">Disabled</a></li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Zoeken">
+          <button class="btn btn-outline-success" type="submit">Zoek</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+  <!-- Header -->
   <header class="bg-dark text-white text-center py-3">
     <h1>Fortnite</h1>
   </header>
+
+
+
+
+
+  <!-- Hoofdinhoud -->
   <main class="container my-4">
-    <h2>-> gedicht :)</h2>
     <div class="row">
-      <div class="col">
-        <p>Op het eiland, hoog en wijd,
-            spring ik uit de Battle Ride.
-            Met mijn pickaxe in de hand,
-            zoek ik loot langs zee en strand.</p>
-        <p>Storm komt op, de cirkel krimpt,
-            iedereen die rent of sprint.
-            Bouw een fort, zet je schrap,
-            tegen vijanden op de trap.</p>
-        <button class="btn btn-primary">More examples</button>
+      <!-- Gedicht -->
+      <div class="col-md-8">
+        <h2>-> Gedicht :)</h2>
+        <div class="row">
+          <div class="col">
+            <p>Op het eiland, hoog en wijd, spring ik uit de Battle Ride. Met mijn pickaxe in de hand, zoek ik loot langs zee en strand.</p>
+            <p>Storm komt op, de cirkel krimpt, iedereen die rent of sprint. Bouw een fort, zet je schrap, tegen vijanden op de trap.</p>
+            <button class="btn btn-primary">More examples</button>
+          </div>
+          <div class="col">
+            <p>Pump, SMG of Sniper Shot, hit je raak? Dan wordt het hot! Victory Royale, dat is het doel, laat die dans zien, voel die poel!</p>
+            <p>Van Tilted Towers tot Anvil Square, strijd ik dapper keer op keer. Of ik win of verliezen moet, Fortnite spelen blijft altijd goed!</p>
+            <button class="btn btn-secondary">More info</button>
+          </div>
+        </div>
       </div>
-      <div class="col">
-        <p>Pump, SMG of Sniper Shot,
-            hit je raak? Dan wordt het hot!
-            Victory Royale, dat is het doel,
-            laat die dans zien, voel die poel!</p>
-        <p>Van Tilted Towers tot Anvil Square,
-            strijd ik dapper keer op keer.
-            Of ik win of verliezen moet,
-            Fortnite spelen blijft altijd goed!</p>
-        <button class="btn btn-secondary">More info</button>
-      </div>
+
+
+
+
+
+      <!-- Sidebar -->
+      <aside class="col-md-4">
+        <div class="card">
+          <div class="card-header bg-primary text-white">
+            🔥 Hottest Fortnite News
+          </div>
+          <div class="card-body">
+            <ul class="list-unstyled">
+              <li><strong>New Season Update:</strong> Explore the latest map changes and battle pass rewards!</li>
+              <li><strong>Upcoming Skins:</strong> Leaks suggest new crossover skins coming soon.</li>
+              <li><strong>Weapon Balancing:</strong> Find out which guns got buffed or nerfed.</li>
+            </ul>
+          </div>
+        </div>
+      </aside>
     </div>
   </main>
- <footer class="bg-dark text-white text-center py-3">
-  <p>&copy; 2025 Mijn Fortnite Pagina. Like en subscribe.</p>
-</footer>Minishields, snel en klein,
-geven jou wat extra lijn.
 
-Big Pot, groots en sterk,
-maakt je klaar voor elk gevechtwerk.
 
-Blauwe drank, jouw reddingslijn,
-zonder schild… kan ’t einde zijn.
+
+
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2025 Mijn Fortnite Pagina. Like en subscribe.</p>
+  </footer>
+
+
+
+
+
+   <!-- Bootstrap JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqEQ9jLTx7cJI6K8DASbLfdxPBJzWpztQB1N00lj8UcoFZ6UWwIXR4uDIh2Xy" crossorigin="anonymous"></script>
+
+
+  
 </body>
 </html>
