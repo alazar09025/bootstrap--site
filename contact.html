@@ -35,12 +35,19 @@
   <!-- Contact Form -->
   <main class="container my-4">
     <h1 class="text-center">Contacteer Ons</h1>
-    <p class="text-center">Vul je e-mail in en we nemen contact met je op!</p>
+    <p class="text-center">Heb je vragen? Vul het onderstaande formulier in en we nemen contact met je op.</p>
 
     <div class="row justify-content-center">
-      <div class="col-md-5">
+      <div class="col-md-6">
         <form>
-          <input type="email" class="form-control mb-3" placeholder="Je e-mailadres" required>
+          <div class="mb-3">
+            <label for="email" class="form-label">E-mailadres</label>
+            <input type="email" class="form-control" id="email" placeholder="Voer je e-mailadres in" required>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Bericht</label>
+            <textarea class="form-control" id="message" rows="4" placeholder="Schrijf je bericht hier..." required></textarea>
+          </div>
           <button type="submit" class="btn btn-primary w-100">Verzenden</button>
         </form>
       </div>
@@ -51,7 +58,7 @@
   <footer class="row mt-4">
     <div class="col bg-dark text-white text-center py-4">
       <p>&copy; 2025 - alazar, like en subscribe!</p>
-      <p>&copy; <a class="navbar-brand" href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" style="text-decoration: underline;">gemaakt met bootstraps</a></p>
+      <p>&copy; <a class="navbar-brand" href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" style="text-decoration: underline;">gemaakt met bootstrap</a></p>
     </div>
   </footer>
 
