@@ -13,14 +13,17 @@
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="mainpage.html">Home</a>
+      <div class="d-flex align-items-center">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTozMC8CN3BExs4T4ADBC0Q9Bn9DTkZYswBVw&s" class="navbar-img" alt="Afbeelding" style="width: 40px; height: auto; margin-right: 10px;">
+        <a class="navbar-brand" href="mainpage.html">Home</a>
+      </div>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item"><a class="nav-link active" aria-current="page" href="services.html">Services</a></li>
-          <li class="nav-item"><a class="nav-link" href="about page.html">About</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="about page.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
           <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
         </ul>
         <form class="d-flex" role="search">
@@ -43,7 +46,7 @@
       <main class="col-md-8">
         <h2>Wat is Fortnite?</h2>
         <p>Fortnite is een multiplayer-game ontwikkeld door Epic Games, uitgebracht op <strong>25 juli 2017</strong>. Het is een mix van Battle Royale en creatieve gameplay waarbij spelers kunnen bouwen, strijden en samenwerken.</p>
-        <img src="https://cdn2.unrealengine.com/fortnite-chapter-5-key-art-1920x1080-32777b1b2c0b.jpg" class="img-fluid rounded shadow mb-4" alt="Fortnite afbeelding">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQvQmktu3QSbhfcGUmhemiKg3EX34yeA_Pag&s" class="img-fluid rounded shadow mb-4">
 
         <h2>Gameplaymodi</h2>
         <ul>
@@ -81,41 +84,72 @@
       </aside>
     </div>
 
-    <!-- Gedicht -->
-    <section class="text-center mt-5">
-      <h2>-> Gedicht :)</h2>
-      <div class="row justify-content-center">
-        <div class="col-md-6">
-          <p>Op het eiland, hoog en wijd, spring ik uit de Battle Ride.  
-             Met mijn pickaxe in de hand, zoek ik loot langs zee en strand.</p>
-          <p>Storm komt op, de cirkel krimpt, iedereen die rent of sprint.  
-             Bouw een fort, zet je schrap, tegen vijanden op de trap.</p>
-          <button class="btn btn-primary mb-3">More examples</button>
-        </div>
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-md-6">
-          <p>Pump, SMG of Sniper Shot, hit je raak? Dan wordt het hot!  
-             Victory Royale, dat is het doel, laat die dans zien, voel die poel!</p>
-          <p>Van Tilted Towers tot Anvil Square, strijd ik dapper keer op keer.  
-             Of ik win of verliezen moet, Fortnite spelen blijft altijd goed!</p>
-          <button class="btn btn-secondary">More info</button>
-        </div>
-      </div>
-    </section>
-
-  </div>
-
-  <!-- Footer -->
-  <footer class="row mt-4">
-    <div class="col bg-dark text-white text-center py-4">
-      <p>&copy; 2025 - alazar, like en subscribe!</p>
-      <p>&copy; <a class="navbar-brand" href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" style="text-decoration: underline;">gemaakt met bootstraps</a></p>
+ <!-- Gedicht -->
+ <section class="text-center mt-5">
+  <h2>-> Gedicht :)</h2>
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <p>Op het eiland, hoog en wijd, spring ik uit de Battle Ride.  
+         Met mijn pickaxe in de hand, zoek ik loot langs zee en strand.</p>
+      <button class="btn btn-primary mb-3" data-bs-toggle="modal" data-bs-target="#modal1">More examples</button>
     </div>
-  </footer>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <p>Pump, SMG of Sniper Shot, hit je raak? Dan wordt het hot!  
+         Victory Royale, dat is het doel, laat die dans zien, voel die poel!</p>
+      <button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modal2">More info</button>
+    </div>
+  </div>
+</section>
+</div>
 
-  <!-- Bootstrap JavaScript -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Modal 1 -->
+<div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="modal1Label">🔥🔥🔥Emotioneel gedichtje🔥🔥🔥</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+      <p>Door de storm, ik ren zo snel,</p>
+      <p>Vriend of vijand, wie is fel?</p>
+      <p>Van de bergen tot het strand,</p>
+      <p>Met mijn wapen in mijn hand.</p>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- Modal 2 -->
+<div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2Label" aria-hidden="true">
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="modal2Label">🔥🔥🔥Cool gedichtje🔥🔥🔥</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+      <p>Een kist vol loot, een gouden gun,</p>
+      <p>Mijn avontuur is net begonnen.</p>
+      <p>Spring en schiet, geen tijd voor rust,</p>
+      <p>De Victory Royale is een must!</p>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- Footer -->
+<footer class="row mt-4">
+<div class="col bg-dark text-white text-center py-4">
+  <p>&copy; 2025 - alazar, like en subscribe!</p>
+  <p>&copy; <a class="navbar-brand" href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" style="text-decoration: underline;">gemaakt met bootstrap</a></p>
+</div>
+</footer>
+
+<!-- Bootstrap JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
